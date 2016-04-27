@@ -1,0 +1,851 @@
+@font-face
+{font-family:"LinkedIn-Glyphs";
+src:url('../font/LinkedIn-Glyphs-16px.eot');
+src:url('../font/LinkedIn-Glyphs-16px.eot?#iefix') format('embedded-opentype'),url('../font/LinkedIn-Glyphs-16px.woff') format('woff'), url('../font/LinkedIn-Glyphs-16px.ttf') format('truetype');
+font-weight:normal;font-style:normal}
+
+@font-face{font-family:"LinkedIn-Glyphs-2.0.7";
+src:url('../font/LinkedIn-Glyphs-16px.eot');
+src:url('../font/LinkedIn-Glyphs-16px.eot?#iefix') format('embedded-opentype'),url('../font/LinkedIn-Glyphs-16px.woff') format('woff'), url('../font/LinkedIn-Glyphs-16px.ttf') format('truetype');
+font-weight:normal;
+font-style:normal}
+
+
+#full-stretch-header {
+    margin-top: 42px;
+    min-width: 974px;
+}
+
+#topcard-background {
+    position: relative;
+    margin-bottom: -195px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    height: 404px;
+    background-image: linear-gradient(#a9cfe2,#b6bdbe);
+}
+
+#premium-image-container {
+    position: relative;
+    height: 404px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#premium-image {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.global-header {
+    box-shadow: 0 0 10px #333;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    z-index: 10001;
+    height: 42px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-v5-2-header {
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+#top-header {
+    z-index: 2;
+    position: relative;
+}
+
+#top-header>.wrapper {
+    z-index: 3;
+}
+
+.nav-v5-2-header .header-section.first-child {
+    width: auto;
+}
+
+.global-header .header-section.first-child {
+    float: left;
+    width: 646px;
+}
+
+.nav-v5-2-header #top-header {
+    background-color: #3f3f3f;
+    background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+    height: 42px;
+}
+
+.global-header .header-section .logo-container {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    float: left;
+}
+
+.logo-container {
+    
+}
+
+#in-logo {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 3px;
+    background: url("https://static.licdn.com/scds/common/u/images/logos/linkedin/logo_in_nav_44x36.png") left center no-repeat;
+    display: block;
+    height: 36px;
+    width: 44px;
+    position: relative;
+    left: -1px;
+    float: left;
+}
+
+.nav-v5-2-header #in-logo{
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.global-header .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 974px;
+    position: relative;
+}
+
+#body, .primary, .wrapper {
+    clear: both;
+}
+
+.wrapper {
+    
+}
+
+#wrapper {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 974px;
+}
+
+#wrapper.premium-profile {
+    background: none;
+}
+
+.top-card {
+    position: relative;
+    font-size: 12px;
+}
+
+.profile-top-card {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.premium-profile #top-card .profile-picture {
+    margin: 0;
+    width: 240px;
+    height: 240px;
+    line-height: 240px;
+    background: none;
+    background-image: none;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    z-index: 3;
+}
+
+.profile-card .profile-picture {
+    position: relative;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+#wrapper.premium-profile .profile-card .profile-overview {
+    width: 654px;
+    padding: 25px 40px;
+}
+
+.profile-card .profile-overview {
+    position: relative;
+    z-index: 6;
+    float: right;
+    width: 405px;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.account-icons {
+    float: right;
+    margin: 0 0 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.account-icons #badge-container, .account-icons #badge, .account-icons #badge-view {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    vertical-align: top;
+}
+
+.account-icons .influencericon {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    background-image: url('https://static.licdn.com/scds/common/u/images/themes/katy/icons/badge-s205351a342.png');
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 0;
+    width: 90px;
+    height: 22px;
+    margin: 0 0 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+.premium-profile #top-card #headline {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.premium-profile #top-card #headline .title {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #666;
+}
+
+.profile-card .title {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: inline;
+}
+
+.profile-card #demographics {
+    margin: 2px 0;
+    font-size: 13px;
+    line-height: 17px;
+    color: #66696a;
+    font-weight: normal;
+}
+
+.premium-profile #top-card #location {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+}
+
+.profile-card #demographics dl.industry, .profile-card #demographics dd.industry {
+    border-left: 1px solid #bbb;
+    padding: 0 0 0 8px;
+    margin: 0 0 0 5px;
+}
+
+
+
+.profile-card #demographics dl, .profile-card #demographics dd {
+    display: inline;
+}
+
+.profile-card #demographics dl, .profile-card #demographics dd {
+    display: inline;
+}
+
+.profile-card #demographics a {
+    font-size: 13px;
+    line-height: 17px;
+    color: #66696a;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.profile-card table {
+    margin: 10px 0 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.premium-profile #top-card th {
+    font-size: 13px;
+    line-height: 17px;
+    color: #66696a;
+    font-weight: normal;
+}
+
+.profile-card th {
+    vertical-align: top;
+    padding: 2px 20px 0 0;
+    white-space: nowrap;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.edit-tools, .edit-toolbox, .edit-section-tip {
+    display: none;
+}
+
+.profile-card th a:link, .profile-card th a:visited, .profile-card th a:hover, .profile-card th a:active {
+    color: #999;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.profile-card table li {
+    display: inline;
+}
+
+li {
+    text-align: initial;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.premium-profile #top-card td {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+}
+
+.profile-card th+td {
+    padding-top: 2px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.follow .member-connections {
+    padding-left: 0px;
+}
+
+.member-connections {
+    font-size: 11px;
+    color: #999;
+    float: right;
+    padding: 7px 0 0 10px;
+    line-height: 15px;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.member-connections strong {
+    font-weight: bold;
+    display: block;
+    color: #333;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.follow .profile-overview .profile-actions {
+    min-width: 282px;
+}
+
+.profile-overview .profile-actions.view-actions {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+.profile-overview .profile-actions {
+    display: table-cell;
+}
+
+.profile-overview .profile-actions .katy-button-group.button-group-primary {
+    top: 5px;
+}
+
+.profile-overview .profile-actions .katy-button-group {
+    line-height: 1;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    vertical-align: middle;
+    position: relative;
+    position: relative;
+}
+
+.profile-overview .profile-actions .katy-button-group.button-group-primary .button-primary, .profile-overview .profile-actions .katy-button-group.button-group-primary .button-primary.is-not-following, .profile-overview .profile-actions .katy-button-group.button-group-primary .people-follow.active .button-primary.is-following {
+    background-image: none;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    text-decoration: none !important;
+    width: auto;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -ms-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    padding: 0 13px;
+    height: 31px;
+    line-height: 29px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #fff;
+    background-color: #287bbc;
+    border-color: #1b5480;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF287BBC', endColorstr='#FF23639A');
+    background-image: -webkit-linear-gradient(top, #287bbc 0%,#23639a 100%);
+    background-image: -moz-linear-gradient(top, #287bbc 0%,#23639a 100%);
+    background-image: -o-linear-gradient(top, #287bbc 0%,#23639a 100%);
+    background-image: linear-gradient(top, #287bbc 0%,#23639a 100%);
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left;
+    display: block;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    float: none;
+}
+
+.profile-overview .profile-actions .katy-button-group .follow-supplemental-action {
+    padding-top: 2px;
+}
+
+.profile-overview .profile-actions .follow-supplemental-action {
+    padding-top: 7px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.follow-supplemental-action {
+    padding-left: 5px;
+    padding-top: 5px;
+    max-width: 130px;
+    float: right;
+}
+
+.profile-overview .profile-actions .follow-supplemental-action p {
+    padding: 0;
+}
+
+.follow-supplemental-action .action-description {
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.follow-supplemental-action .connect {
+    color: #006fa6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited, #footer a:visited {
+    color: #069;
+}
+
+.follow-supplemental-action .connect.visited, .follow-supplemental-action .connect:visited {
+    color: #96999c;
+}
+
+.profile-overview .profile-actions .katy-button-menu {
+    display: inline-block;
+}
+
+.profile-overview .profile-actions .katy-button-group.button-group-primary .button-caret, .profile-overview .profile-actions .katy-button-group.button-group-primary .dropdown-caret, .profile-overview .profile-actions .katy-button-group.button-group-primary .button-hamburger {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    text-decoration: none !important;
+    width: auto;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    padding: 0 9px;
+    height: 31px;
+    line-height: 29px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #fff;
+    background-color: #287bbc;
+    border-color: #1b5480;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF287BBC', endColorstr='#FF23639A');
+    background-image: -webkit-linear-gradient(top, #287bbc 0%,#23639a 100%);
+    background-image: -moz-linear-gradient(top, #287bbc 0%,#23639a 100%);
+    background-image: -o-linear-gradient(top, #287bbc 0%,#23639a 100%);
+    background-image: linear-gradient(top, #287bbc 0%,#23639a 100%);
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left;
+    border-left-width: 0;
+    display: block;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    float: none;
+}
+
+.profile-overview .profile-actions .katy-button-group.button-group-primary .button-caret .caret, .profile-overview .profile-actions .katy-button-group.button-group-primary .dropdown-caret .caret, .profile-overview .profile-actions .katy-button-group.button-group-primary .button-hamburger .caret {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    vertical-align: middle;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border-style: dashed;
+    border-color: transparent;
+    border-top-style: solid;
+    border-width: 5px 5px 0;
+    border-top-color: #fff;
+    overflow: hidden;
+    content: "\0020";
+}
+
+#profile {
+    float: left;
+    width: 646px;
+    word-wrap: break-word;
+    min-height: 1px;
+}
+
+#wrapper.premium-profile #background, #wrapper.premium-profile #activity, #wrapper.premium-profile .endorse-v2 .suggested-endorsements {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#background {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.profile-activity, .profile-background, .profile-endorsements, .profile-groups, .profile-following, .profile-connections, .profile-your-notes, #relationships_bar {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.profile-activity h2, .profile-background h2, .profile-endorsements h2, .profile-groups h2, .profile-following h2, .profile-connections h2, .profile-your-notes h2, #relationships_bar h2 {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: 0px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #333;
+    color: #fff;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: bold;
+    padding: 7.5px 20px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    vertical-align: top;
+    word-wrap: normal;
+}
+
+.background-section, .background-section-drag-proxy {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+}
+
+.background-section {
+    position: relative;
+}
+
+
+
+#background-summary {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#background-summary .summary-header {
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+
+#background-summary .summary-header h3 {
+    display: inline;
+}
+
+.background-section h3, .background-section-drag-proxy h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 23px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #434649;
+}
+
+.background-section .section-item, .background-section-drag-proxy .section-item {
+    margin-bottom: 30px;
+}
+
+.background-section p, .background-section-drag-proxy p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.summary-header h3:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 32px;
+    color: inherit;
+    content: "\e039";
+}
+
+#background-experience {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.background-experience h3:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 32px;
+    color: inherit;
+    content: "\e03a";
+}
+
+.background-section h3:before, .background-section-drag-proxy h3:before {
+    float: left;
+    width: 50px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+.background-section h4, .background-section-drag-proxy h4 {
+    display: inline;
+}
+
+.background-section h4, .background-section-drag-proxy h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+.background-section h5, .background-section-drag-proxy h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #434649;
+}
+
+
+
+a.visited, a:visited {
+    color: #96999c;
+}
+
+.background-section .additional-info-listing li:before, .background-section .locality:before, .background-section-drag-proxy .additional-info-listing li:before, .background-section-drag-proxy .locality:before {
+    content: "|";
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.background-section h5.experience-logo, .background-section h5.education-logo, .background-section h5.certification-logo, .background-section h5.volunteering-logo, .background-section-drag-proxy h5.experience-logo, .background-section-drag-proxy h5.education-logo, .background-section-drag-proxy h5.certification-logo, .background-section-drag-proxy h5.volunteering-logo {
+    width: 100px;
+    text-align: center;
+}
+
+.background-section .education-logo, .background-section .experience-logo, .background-section .volunteering-logo, .background-section .certification-logo, .background-section-drag-proxy .education-logo, .background-section-drag-proxy .experience-logo, .background-section-drag-proxy .volunteering-logo, .background-section-drag-proxy .certification-logo {
+    float: right;
+    margin-top: -2px;
+    margin-bottom: 0px;
+}
+
+a img {
+    border: none;
+}
+
+.profile-card:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.premium-profile #top-card .top-card {
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.85),#ffffff 65%,#ffffff);
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.85),#ffffff 65%,#ffffff);
+    background-image: -o-linear-gradient(rgba(255,255,255,0.85),#ffffff 65%,#ffffff);
+    background-image: linear-gradient(rgba(255,255,255,0.85),#ffffff 65%,#ffffff);
+    background-color: transparent;
+}
+
+.profile-card-extras .profile-actions {
+    -webkit-box-shadow: 0 1px 0 #fff inset;
+    -moz-box-shadow: 0 1px 0 #fff inset;
+    box-shadow: 0 1px 0 #fff inset;
+    clear: both;
+    border-top: 1px dashed #ccc;
+    padding: 0 0 0 21px;
+    background: #f6f6f6;
+}
+
+.profile-card-extras .profile-actions>ul {
+    display: table-cell;
+    width: 100%;
+    padding: 0 0 8px;
+}
+
+.profile-card-extras .profile-actions>ul li {
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 12px;
+    font-size: 11px;
+    line-height: 1.2em;
+}
+
+.profile-card-extras .profile-actions .public-profile {
+    word-wrap: break-word;
+}
+
+.profile-card-extras .profile-actions .public-profile dt {
+    display: none;
+}
+
+.profile-card-extras .profile-actions .public-profile dd {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    vertical-align: top;
+    padding: 2px 9px 1px 0;
+}
+
+.profile-card-extras .profile-actions .public-profile .view-public-profile {
+    direction: ltr;
+}
+
+.profile-card-extras .profile-actions .public-profile a {
+    border: 0;
+    padding: 0 0 0 19px;
+    margin: 0 10px 0 0;
+    background: url('https://static.licdn.com/scds/common/u/images/apps/profile/sprite/sprite_profile_top_card_v8.png') no-repeat 0 -249px;
+}
+
+.profile-card-extras .profile-actions>ul a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    border-right: 1px solid #ccc;
+    padding: 1px 9px 1px 1px;
+    color: #666;
+}

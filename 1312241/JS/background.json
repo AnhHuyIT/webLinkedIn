@@ -1,0 +1,113 @@
+{
+    "Name": "Jeff Weiner",
+    "Work": "CEO",
+    "Company": "LinkedIn",
+    "Experience": [
+        {
+        "Work":"CEO",
+        "Company":"LinkedIn",
+        "Time":"December 2008 – Present (7 years 5 months)",
+        "Local":"",
+        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAAL0AAAAJGMwYWZhNTYxLWJkMTktNDAzMi05NzEzLTlhNzUxMGU0NDg0Mw.png",
+        "Info":"Connecting the world's professionals to make them more productive and successful. Since joining the company in December 2008, LinkedIn has expanded its global platform to 23 languages and more than 30 offices around the world, grown its membership base from 33M to more than 347M, and increased its revenue from $78M to over $2.2B in 2014. <br><br>"
+    },
+    {
+        "Work":"Member, Board of Directors",
+        "Company":"Intuit",
+        "Time":"April 2012 – Present (4 years 1 month)",
+        "Local":"Mountain View, CA",
+        "Logo":"https://media.licdn.com/media/p/2/000/205/177/3cfd5b9.png",
+        "Info":"With revenue of $4B+ and approximately 8,000 employees, Intuit is a leading provider of innovative business and financial management solutions for small and medium-sized businesses, consumers, accounting professionals and financial institutions.<br><br>"
+    },
+    {
+        "Work":"Member, Board of Directors",
+        "Company":"DonorsChoose",
+        "Time":"2007 – Present (9 years)",
+        "Local":"",
+        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAAIEAAAAJGFhNGYyNjBjLWUxOWItNDRlYi05MTY0LTE5ZDA3YThhMTRkYg.png",
+        "Info":"One of the web's leading philanthropic marketplaces, designed to enable teachers to upload classroom projects in need of funding, and for anyone to select and fund a project.<br><br>"
+    },
+    {
+        "Work":"Member, Advisory Board",
+        "Company":"Boys & Girls Clubs of the Peninsula",
+        "Time":"2011 – Present (5 years)",
+        "Local":"San Francisco Bay Area",
+        "Logo":"https://media.licdn.com/media/p/5/005/00c/1bf/134d5ca.png",
+        "Info":"BGCP’s mission is to help its members develop the academic and life skills they need to complete high school ready for college and career.<br><br>BGCP serves youth in grades K–12 at nine locations: three clubhouses and six school sites in East Palo Alto, Menlo Park, and Redwood City, where over half the youth drop out of high school. While most youth development organizations select the young people whom they serve, BGCP serves all youth. The organization has grown rapidly over the past five years and now serves 2,000 active members at its nine sites.<br><br>"
+    },
+    {
+        "Work":"Member, Advisory Board",
+        "Company":"Venture For America",
+        "Time":"2012 – Present (4 years)",
+        "Local":"Greater New York City Area",
+        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAATmAAAAJDdiMDk5Yzk4LWE1MjItNGQ0NC05YmMzLWFjNDgyNzllNzI4Mw.png",
+        "Info":"Innovative fellowship program that places top college graduates in start-ups for two years in low-cost U.S. cities to generate job growth and train the next generation of entrepreneurs.<br><br>"
+    },
+    {
+        "Work":"Member, Board of Directors",
+        "Company":"Malaria No More",
+        "Time":"2007 – December 2015 (8 years)",
+        "Local":"Greater New York City Area",
+        "Logo":"https://media.licdn.com/media/p/1/005/072/19b/3e210c5.png",
+        "Info":"Non-profit organization with the mission to eradicate the millions of preventable and treatable deaths due to malaria. Working in conjunction with the United Nations Millennium Development Goals.<br><br>"
+    },
+    {
+        "Work":"Executive in Residence",
+        "Company":"Accel Partners",
+        "Time":"September 2008 – June 2009 (10 months)",
+        "Local":"",
+        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAAXzAAAAJGU4NDc1OGU3LWI1YjYtNDBlZS05YWEyLWQ3MjQ2MDRiMTFiNA.png",
+        "Info":"<br><br>"
+    },
+    {
+        "Work":"Executive in Residence",
+        "Company":"Greylock",
+        "Time":"September 2008 – June 2009 (10 months)",
+        "Local":"",
+        "Logo":"https://media.licdn.com/media/p/8/000/1da/1c7/2c8e342.png",
+        "Info":"<br><br>"
+    },
+    {
+        "Work":"Executive Vice President Network Division",
+        "Company":"Yahoo!",
+        "Time":"May 2001 – June 2008 (7 years 2 months)",
+        "Local":"",
+        "Logo":"https://media.licdn.com/media/p/5/005/00e/318/39cf760.png",
+        "Info":"Led a team of over 3,000 employees, managing products reaching over 500 million consumers, and overseeing a P&L responsible for roughly $3 billion in annual revenue. Helped drive the Network’s Open and Social strategy and growth of the company’s category-leading consumer web products, including Yahoo's Front Page, Mail, Search, and Media products, e.g. News, Sports, Finance, Entertainment. <br> Previously, was part of the Search leadership team that directed the acquisition and integration of Inktomi, AltaVista, FAST as well as the development of Yahoo! Search Technology. Oversaw development of Yahoo! Answers, and led the acquisitions of Flickr and del.icio.us. Helped lead the team formed to revitalize the company's Search Marketing efforts. <br> From 2001 to 2002, oversaw Corporate Development at Yahoo!, responsible for the development and modification of overall corporate and individual business unit strategy and M&A.<br><br>"
+    },
+    {
+        "Work":"Founding Partner",
+        "Company":"Windsor Media",
+        "Time":"June 2000 – April 2001 (11 months)",
+        "Local":"",
+        "Logo":"",
+        "Info":"<br><br>"
+    },
+    {
+        "Work":"Vice President Online",
+        "Company":"Warner Bros",
+        "Time":"September 1994 – March 2000 (5 years 7 months)",
+        "Local":"",
+        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAAWqAAAAJDhmYWJlM2ExLTUyOWMtNDgzNS1hZTllLTMxZmY4M2Q0ODYwYQ.png",
+        "Info":"Helped oversee Warner Bros.' online efforts, including Warner Bros. Online and Entertaindom (one of the web's first original entertainment destination sites).<br>In December, 1994, began developing the initial business plan for Warner Bros. Online while an analyst in Corporate Planning & Development.<br><br>"
+    },
+    {
+        "Work":"Senior Analyst",
+        "Company":"Braxton Associates",
+        "Time":"September 1992 – September 1994 (2 years 1 month)",
+        "Local":"Boston",
+        "Logo":"",
+        "Info":"Analyst for strategic management consulting division of Deloitte & Touche. Case work included scenario planning, international expansion, brand consolidation, and new distribution strategies across multiple industries including food, health care, and energy.<br><br>"
+    }
+        
+    ],
+    "Summary": "Internet executive with over 20 years of experience, including general management of mid to large size organizations, corporate development, product development, business operations, and strategy. <br> Currently CEO at LinkedIn, the web's largest and most powerful network of professionals. <br> Prior to LinkedIn, was an Executive in Residence at Accel Partners and Greylock Partners. Primarily focused on advising the leadership teams of the firm's existing consumer technology portfolio companies while also working closely with the firm’s partners to evaluate new investment opportunities. <br> Previously served in key leadership roles at Yahoo! for over seven years, most recently as the Executive Vice President of Yahoo!'s Network Division managing Yahoo's consumer web product portfolio, including Yahoo's Front Page, Mail, Search, and Media products.<br> Specialties: general management, corporate development, product development, business operations, strategy, product marketing, non-profit governance",
+    "Education":[
+        {
+        "School": "University of Pennsylvania - The Wharton School",
+        "Degree":"Bachelor of Science",
+        "Major":"Economics",
+        "Time1":"1988",
+        "Time2":"June 1992"
+    }]
+}
