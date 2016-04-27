@@ -849,3 +849,285 @@ a img {
     padding: 1px 9px 1px 1px;
     color: #666;
 }
+
+.profile-card-extras .profile-actions .show-more-info {
+    display: table-cell;
+    border-left: 1px solid #ccc;
+    padding: 8px 10px 7px 10px;
+    background-color: #ececec;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFECECEC', endColorstr='#FFE1E1E1');
+    background-image: -webkit-linear-gradient(top, #ececec 0%,#e1e1e1 100%);
+    background-image: -moz-linear-gradient(top, #ececec 0%,#e1e1e1 100%);
+    background-image: -o-linear-gradient(top, #ececec 0%,#e1e1e1 100%);
+    background-image: linear-gradient(top, #ececec 0%,#e1e1e1 100%);
+    font-size: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.profile-card-extras .profile-actions .show-more-info a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    border-left: 1px solid #ccc;
+    border: 0;
+    padding: 1px 10px 1px 1px;
+    color: #666;
+    white-space: nowrap;
+}
+
+.profile-card-extras .profile-actions .show-more-info a:before {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.profile-card-extras .profile-actions .show-more-info a:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 16px;
+    color: inherit;
+    content: "\e053";
+}
+
+.profile-card-extras .profile-actions .show-more-info a .contact {
+    display: inline;
+    vertical-align: 20%;
+}
+
+.background-section {
+    
+}
+
+#background-skills {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.background-skills h3:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 32px;
+    color: inherit;
+    content: "\e03c";
+}
+
+#skills-item #skills-item-view {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#profile-skills h5 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.background-section h5, .background-section-drag-proxy h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #434649;
+}
+
+.skills-section {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.endorse-item {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.skills-section .skill-pill {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.skill-pill {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    overflow: hidden;
+    cursor: default;
+    white-space: nowrap;
+}
+
+.endorsed-by-viewer .endorse-count, .has-endorsements .endorse-count {
+    min-width: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.skill-pill .endorse-count, .skill-pill .endorse-item-name {
+    float: left;
+    line-height: 24px;
+}
+
+.has-endorsements .num-endorsements {
+    font-weight: bold;
+    color: #fff;
+    display: inline;
+}
+
+.endorsed-by-viewer .endorse-item-name, .has-endorsements .endorse-item-name {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+a.endorse-item-name-text {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a.visited, a:visited {
+    color: #96999c;
+}
+
+.endorse-count {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: #666 0 1px 0;
+    -webkit-transition: min-width 0.2s linear;
+    -moz-transition: min-width 0.2s linear;
+    -o-transition: min-width 0.2s linear;
+    transition: min-width 0.2s linear;
+    background-color: #287bbc;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -ms-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    text-align: center;
+    border-bottom: 1px solid #1ba8e5;
+}
+
+.endorse-item-name {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    background-color: #f0f0f0;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.background-section h5, .background-section-drag-proxy h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #2672ae;
+}
+
+.compact-view {
+    overflow: hidden;
+}
+
+.compact-view .endorse-item {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.skills-section.compact-view .skill-pill {
+    float: left;
+}
+
+#background-education {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#background-education.last {
+    border-color: transparent;
+}
+
+.background-education h3:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 32px;
+    color: inherit;
+    content: "\e03b";
+}
+
+#background-education .section-item {
+    clear: both;
+    min-height: 60px;
+}
+
+.background-section h4 a, .background-section-drag-proxy h4 a {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.background-section .certification-date, .background-section .education-date, .background-section .experience-date-locale, .background-section .honors-date, .background-section .organizations-date, .background-section .patents-date, .background-section .projects-date, .background-section .publication-date, .background-section .test-scores-date, .background-section .volunteering-date-cause, .background-section .volunteering-interests-hint, .background-section-drag-proxy .certification-date, .background-section-drag-proxy .education-date, .background-section-drag-proxy .experience-date-locale, .background-section-drag-proxy .honors-date, .background-section-drag-proxy .organizations-date, .background-section-drag-proxy .patents-date, .background-section-drag-proxy .projects-date, .background-section-drag-proxy .publication-date, .background-section-drag-proxy .test-scores-date, .background-section-drag-proxy .volunteering-date-cause, .background-section-drag-proxy .volunteering-interests-hint {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #66696a;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+#background-projects {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.background-projects h3:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 32px;
+    color: inherit;
+    content: "\e03e";
+}
