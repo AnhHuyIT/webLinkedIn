@@ -1131,3 +1131,8 @@ a.visited, a:visited {
     color: inherit;
     content: "\e03e";
 }
+
+textarea {
+    width: 80%;
+    height: 100px;
+}

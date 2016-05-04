@@ -49,8 +49,9 @@
                                 </div>
                                 <div data-li-template="p2_basic_info">
                                     <div id="name-container" data-li-template="name">
-                                        <div id="name" class="editable-item">
-                                            <h1><span class="fn"><span class="full-name" dir="auto">{{background.Name}}</span></span></h1>
+                                        <div id="name" class="editable-item" ng-dblclick="hidetextbox(edit.statusfullname)">
+                                            <h1 ng-show="(!edit.statusfullname.status)" class="fn ng-binding ng-hide" ng-bind="background.Name"></h1>
+                                            <input ng-show="edit.statusfullname.status" ng-model="background.Name" class="ng-pristine ng-valid ng-not-empty ng-touched">
                                         </div>
                                     </div>
                                     <div id="headline-container" data-li-template="headline">
@@ -87,14 +88,14 @@
                                         <td>
                                             <ol>
                                                 <li>
-                                                    <span data-tracking="mcp_profile_sum" class="new-miniprofile-container /biz/miniprofile/1337?pathWildcard=1337" data-li-url="/biz/miniprofile/1337?pathWildcard=1337" data-li-getjs="https://static.licdn.com/scds/concat/common/js?h=40vfeoewuurexnhvi1o2qiknu&amp;fc=2" data-li-miniprofile-id="LI-7998703">
+                                                    <span>
                                                         <strong><a href="/company/1337?trk=prof-0-ovw-curr_pos" dir="auto">LinkedIn</a></strong></span>, 
                                                 </li>
                                                 <li>
-                                                    <span data-tracking="mcp_profile_sum" class="new-miniprofile-container /biz/miniprofile/1666?pathWildcard=1666" data-li-url="/biz/miniprofile/1666?pathWildcard=1666" data-li-getjs="https://static.licdn.com/scds/concat/common/js?h=40vfeoewuurexnhvi1o2qiknu&amp;fc=2" data-li-miniprofile-id="LI-1480396"><strong><a href="/company/1666?trk=prof-0-ovw-curr_pos" dir="auto">Intuit</a></strong></span>, 
+                                                    <span><strong><a href="/company/1666?trk=prof-0-ovw-curr_pos" dir="auto">Intuit</a></strong></span>, 
                                                 </li>
                                                 <li>
-                                                    <span data-tracking="mcp_profile_sum" class="new-miniprofile-container /biz/miniprofile/33101?pathWildcard=33101" data-li-url="/biz/miniprofile/33101?pathWildcard=33101" data-li-getjs="https://static.licdn.com/scds/concat/common/js?h=40vfeoewuurexnhvi1o2qiknu&amp;fc=2" data-li-miniprofile-id="LI-8334371"><strong><a href="/company/33101?trk=prof-0-ovw-curr_pos" dir="auto">DonorsChoose</a></strong></span>
+                                                    <span><strong><a href="/company/33101?trk=prof-0-ovw-curr_pos" dir="auto">DonorsChoose</a></strong></span>
                                                 </li>
                                             </ol>
                                         </td>
@@ -201,9 +202,10 @@
                             </div>
                             <div id="summary-item" class="editable-item section-item">
                                 <div id="summary-item-view">
-                                    <div class="summary" >
-                                        <p class="description" dir="ltr" ng-bind-html="background.Summary">
+                                    <div class="summary" ng-dblclick="hidetextbox(edit.statesummary)">
+                                        <p class="description" dir="ltr" ng-show="!(edit.statesummary.status)" ng-bind-html="background.Summary">
                                         </p>
+                                        <textarea ng-model="background.Summary" ng-show="edit.statesummary.status" class="ng-valid ng-not-empty ng-touched ng-dirty ng-valid-parse"></textarea>
                                     </div>
                                 </div>
                             </div>
