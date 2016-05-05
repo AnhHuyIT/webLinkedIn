@@ -54,9 +54,13 @@
                                             <input ng-show="edit.statusfullname.status" ng-model="background.Name" class="ng-pristine ng-valid ng-not-empty ng-touched">
                                         </div>
                                     </div>
-                                    <div id="headline-container" data-li-template="headline">
+                                    <div id="headline-container" data-li-template="headline" ng-dblclick="hidetextbox(edit.statuswork_company)">
                                         <div id="headline" class="editable-item">
-                                            <p class="title" dir="ltr">{{background.Work}} at {{background.Company}}</p>
+                                            <p class="title" dir="ltr" ng-bind="background.Work" ng-show="!edit.statuswork_company.status"></p>
+                                            <input ng-model="background.Work" ng-show="edit.statuswork_company.status">
+                                            <p class="title" dir="ltr">at</p> 
+                                            <p class="title" dir="ltr" ng-bind="background.Company" ng-show="!edit.statuswork_company.status"></p>
+                                            <input ng-model="background.Company" ng-show="edit.statuswork_company.status">
                                         </div>
                                     </div>
                                     <div class="demographic-info adr editable-item" id="demographics">
@@ -64,7 +68,8 @@
                                             <div id="location" class="editable-item">
                                                 <dl>
                                                     <dd>
-                                                        <span class="locality"><a href="/vsearch/p?f_G=us%3A84&amp;trk=prof-0-ovw-location" name="location" title="Find other members in San Francisco Bay Area">San Francisco Bay Area</a></span>
+                                                        <span class="locality"><a href="/vsearch/p?f_G=us%3A84&amp;trk=prof-0-ovw-location" name="location" title="Find other members in San Francisco Bay Area">Hồ Chí Minh City</a></span>
+                                                        
                                                     </dd>
                                                     
                                                     <dd class="industry"><a href="/vsearch/p?f_I=6&amp;trk=prof-0-ovw-industry" name="industry" title="Find other members in this industry">Internet</a>
@@ -78,65 +83,47 @@
                             
                             <table summary="Overview for Jeff Weiner">
                                 <tbody>
-                                    <tr id="overview-summary-current">
+                                    <tr id="overview-summary-current" ng-dblclick="hidetextbox(edit.statuscurrent)">
                                         <th scope="row">
                                             <span class="edit-tools">
                                                 <a href="#background-experience" class="edit-section" id="control_gen_4"></a>
                                             </span>
                                             <a href="#background-experience" data-trk="prof-0-ovw-curr_pos">Current</a>
                                         </th>
+                                        <td ng-show="!edit.statuscurrent.status" ng-bind="background.Current"  class="ng-binding ng-hide">
+                                        </td>
                                         <td>
-                                            <ol>
-                                                <li>
-                                                    <span>
-                                                        <strong><a href="/company/1337?trk=prof-0-ovw-curr_pos" dir="auto">LinkedIn</a></strong></span>, 
-                                                </li>
-                                                <li>
-                                                    <span><strong><a href="/company/1666?trk=prof-0-ovw-curr_pos" dir="auto">Intuit</a></strong></span>, 
-                                                </li>
-                                                <li>
-                                                    <span><strong><a href="/company/33101?trk=prof-0-ovw-curr_pos" dir="auto">DonorsChoose</a></strong></span>
-                                                </li>
-                                            </ol>
+                                            <input ng-model="background.Current" ng-show="edit.statuscurrent.status" class="ng-pristine ng-valid ng-not-empty ng-touched">
                                         </td>
                                     </tr>
-                                    <tr id="overview-summary-past">
+                                    <tr id="overview-summary-past" ng-dblclick="hidetextbox(edit.statusprevious)">
                                         <th scope="row">
                                             <span class="edit-tools">
                                                 <a href="#background-experience" class="edit-section" id="control_gen_5"></a>
                                             </span>
                                             <a href="#background-experience" data-trk="prof-0-ovw-prev_pos-label">Previous</a>
                                         </th>
+                                        <td ng-show="!edit.statusprevious.status" ng-bind="background.Previous" >
+                                            
+                                        </td>
                                         <td>
-                                            <ol>
-                                                <li>
-                                                    <span data-tracking="mcp_profile_sum" class="new-miniprofile-container /biz/miniprofile/695380?pathWildcard=695380" data-li-url="/biz/miniprofile/695380?pathWildcard=695380" data-li-getjs="https://static.licdn.com/scds/concat/common/js?h=40vfeoewuurexnhvi1o2qiknu&amp;fc=2" data-li-miniprofile-id="LI-6112132"><strong><a href="/company/695380?trk=prof-0-ovw-prev_pos" dir="auto">Malaria No More</a></strong></span>, 
-                                                </li>
-                                                <li>
-                                                    <span data-tracking="mcp_profile_sum" class="new-miniprofile-container /biz/miniprofile/17412?pathWildcard=17412" data-li-url="/biz/miniprofile/17412?pathWildcard=17412" data-li-getjs="https://static.licdn.com/scds/concat/common/js?h=40vfeoewuurexnhvi1o2qiknu&amp;fc=2"><strong><a href="/company/17412?trk=prof-0-ovw-prev_pos" dir="auto">Accel Partners</a></strong></span>, 
-                                                </li>
-                                                <li>
-                                                    <span data-tracking="mcp_profile_sum" class="new-miniprofile-container /biz/miniprofile/18077?pathWildcard=18077" data-li-url="/biz/miniprofile/18077?pathWildcard=18077" data-li-getjs="https://static.licdn.com/scds/concat/common/js?h=40vfeoewuurexnhvi1o2qiknu&amp;fc=2" data-li-miniprofile-id="LI-7913583"><strong><a href="/company/18077?trk=prof-0-ovw-prev_pos" dir="auto">Greylock</a></strong></span>
-                                                </li>
-                                            </ol>
-                                            <a href="#background-experience" class="jump-to-section" id="control_gen_6"></a>
+                                            <input ng-model="background.Previous" ng-show="edit.statusprevious.status" class="ng-pristine ng-valid ng-not-empty ng-touched">
                                         </td>
                                     </tr>
-                                    <tr id="overview-summary-education">
+                                    <tr id="overview-summary-education" ng-repeat="edu in background.Education" ng-dblclick="hidetextbox(edit.stateeducation)">
                                         <th scope="row">
                                             <span class="edit-tools">
                                                 <a href="#background-education" class="edit-section" id="control_gen_7"></a>
                                             </span>
                                             <a href="#background-education" data-trk="prof-0-ovw-edu-label">Education</a>
                                         </th>
-                                        <td>
-                                            <ol>
-                                                <li>
-                                                    <a href="/edu/school?id=19329&amp;trk=prof-0-ovw-edu" title="More details for this school"><strong>University of Pennsylvania - The Wharton School</strong></a>
-                                                </li>
-                                            </ol>
-                                            <a href="#background-education" class="jump-to-section" id="control_gen_8"></a>
+                                        <td ng-show="!edit.stateeducation.status" ng-bind="edu.School">
+                                        
                                         </td>
+                                        <td>
+                                            <input ng-model="edu.School" ng-show="edit.stateeducation.status">
+                                        </td>
+                                        
                                     </tr>
                                 </tbody>
                             </table>
@@ -151,7 +138,7 @@
                                         <a class="button-primary is-not-following" data-action-name="follow" id="control_gen_9">Follow</a>
                                     </span>
                                     <div class="follow-supplemental-action">
-                                        <p class="action-description">Know Jeff?<a name="inviteLink" class="connect"><br>Connect</a></p>
+                                        <p class="action-description">Know Huy?<a name="inviteLink" class="connect"><br>Connect</a></p>
                                     </div>
                                     <div id="secondary-actions-dropdown" class="katy-button-menu">
                                         <button class="more-options dropdown-caret" tabindex="0" role="button" aria-expanded="false"><span class="caret">More options</span></button>
@@ -221,18 +208,26 @@
                         
                             <div id="experience-58506340" class="editable-item section-item current-position">
                                 <div id="experience-58506340-view" ng-repeat="bg in background.Experience">
-                                    <header>
+                                    <header ng-dblclick="hidetextbox(edit.stateexperience_company)">
                                         <h5 class="experience-logo" aria-hidden="true">
                                             <a href=""><span><strong><img class="lazy-load" src={{bg.Logo}} alt=""></strong></span></a>
                                         </h5>
-                                        <h4><a title="Learn more about this title">{{bg.Work}}</a></h4>
-                                        <h5><span data-tracking="mcp_profile_sum"><strong><a dir="auto">{{bg.Company}}</a></strong></span></h5>
+                                        <h4><a title="Learn more about this title"></a></h4>
+                                        <h5><span data-tracking="mcp_profile_sum"><strong><a dir="auto" ng-bind="bg.Company" ng-show="!edit.stateexperience_company.status"></a></strong></span></h5>
+                                        <input ng-model="bg.Company" ng-show="edit.stateexperience_company.status">
                                     </header>
-                                    <span class="experience-date-locale">{{bg.Time}}
-                                        <span class="locality">{{bg.Local}} </span>
-                                    </span>
-                                    <p class="description summary-field-show-more" dir="ltr" ng-bind-html="bg.Info">
-                                    </p>
+                                    <div ng-dblclick="hidetextbox(edit.stateexperience_local)">
+                                        <span class="experience-date-locale" ng-show="!edit.stateexperience_local.status" ng-bind="bg.Time">
+                                        <span class="locality" ng-show="!edit.stateexperience_local.status" ng-bind="bg.Local"></span>
+                                        </span>
+                                        <input ng-show="edit.stateexperience_local.status" ng-model="bg.Time">
+                                        <input ng-show="edit.stateexperience_local.status" ng-model="bg.Local">
+                                        
+                                    </div>
+                                    <div ng-dblclick="hidetextbox(edit.stateexperience_info)">
+                                        <p class="description summary-field-show-more" dir="ltr" ng-show="!edit.stateexperience_info.status" ng-bind-html="bg.Info"></p>
+                                        <textarea ng-show="edit.stateexperience_info.status" ng-model="bg.Info"></textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -426,22 +421,30 @@
                             <h3>Education</h3>
                             <div id="education-18832484" class="editable-item section-item">
                                 <div id="education-18832484-view" ng-repeat="Edu in background.Education">
-                                    <div class="education first">
+                                    <div class="education first"  ng-dblclick="hidetextbox(edit.stateeducation)">
                                         <a href="" title="More details for this school">
                                             <h5 class="education-logo" aria-hidden="true">
                                                 <span><strong><img class="lazy-load" src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAdXAAAAJGE4NGMyZTNlLWVjNmQtNDZhMi1iMTllLTY3ZmIzZGE0NGU4Ng.png" width="60" height="60"></strong></span>
                                             </h5>
                                         </a>
                                         <header>
-                                            <h4 class="summary fn org" dir="auto">
-                                                <a href="" title="More details for this school">{{Edu.School}}</a>
-                                            </h4>
+                                            
+                                                <h4 class="summary fn org" dir="auto">
+                                                <a href="" title="More details for this school" ng-bind="Edu.School" ng-show="!edit.stateeducation.status"></a>
+                                                </h4>
+                                                <input ng-model="Edu.School" ng-show="edit.stateeducation.status">
+                                    
+                                            
                                             <h5>
-                                                <span class="degree">{{Edu.Degree}},</span>
-                                                <span class="major"><a href="" title="Explore this field of study">{{Edu.Major}}</a></span>
+                                                <span class="degree" ng-bind="Edu.Degree" ng-show="!edit.stateeducation.status"></span>
+                                                <input ng-model="Edu.Degree" ng-show="edit.stateeducation.status">
+                                                <span class="major"><a href="" title="Explore this field of study" ng-show="!edit.stateeducation.status" ng-bind="Edu.Major"></a></span>
+                                                <input ng-model="Edu.Major" ng-show="edit.stateeducation.status">
                                             </h5>
                                         </header>
-                                        <span class="education-date"><time>{{Edu.Time1}} </time><time> – {{Edu.Time2}}</time></span>
+                                        <span class="education-date"><time ng-bind="Edu.Time1" ng-show="!edit.stateeducation.status"></time><time ng-bind="Edu.Time2" ng-show="!edit.stateeducation.status"></time></span>
+                                        <input ng-model="Edu.Time1" ng-show="edit.stateeducation.status">
+                                        <input ng-model="Edu.Time2" ng-show="edit.stateeducation.status">
                                     </div>
                                 </div>
                             </div>
@@ -452,13 +455,16 @@
                     <div class="background-projects-container" class="background-section" data-li-template="projects_section">
                         <div id="background-projects" class="background-projects last">
                             <h3>Projects</h3>
-                            <div id="project-512897995" class="editable-item section-item">
+                            <div id="project-512897995" class="editable-item section-item" ng-repeat="pro in background.Project" ng-dblclick="hidetextbox(edit.stateproject)">
                                 <div id="project-512897995-view">
                                     <hgroup>
-                                        <h4 class="summary fn org"><span dir="auto">BBDO Migration</span></h4>
+                                        <h4 class="summary fn org"><span dir="auto" ng-bind="pro.NameProject" ng-show="!edit.stateproject.status"></span></h4>
+                                        <input ng-show="edit.stateproject.status" ng-model="pro.NameProject">
                                     </hgroup>
-                                    <span class="projects-date"><time>November 2014</time> – <time>March 2015</time></span>
-                                    <p class="description summary-field-show-more" dir="ltr" id="control_gen_8">This project is to migration current system on Sharepoint 2007, 2010 to Sharepoint 2013.</p>
+                                    <span class="projects-date" ng-bind="pro.Time" ng-show="!edit.stateproject.status"></span>
+                                    <input ng-model="pro.Time" ng-show="edit.stateproject.status">
+                                    <p class="description summary-field-show-more" dir="ltr" id="control_gen_8" ng-bind="pro.Description" ng-show="!edit.stateproject.status"></p>
+                                    <textarea ng-model="pro.Description" ng-show="edit.stateproject.status"></textarea>
                                 </div>
                             </div>
                         </div>

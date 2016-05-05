@@ -2,6 +2,8 @@
     "Name": "Nguyễn Anh Huy",
     "Work": "Student",
     "Company": "HCMUS",
+    "Current": "Student of University of Science",
+    "Previous": "Student of Trần Quang Khải School",
     "Experience": [
         {
         "Work":"CEO",
@@ -24,10 +26,17 @@
     "Summary": "Tôi là Nguyễn Anh Huy, sinh viên năm 3 chuyên ngành Công nghệ thông tin, trường ĐH KHTN-ĐHQG tp.HCM <br> <br> Sở thích: chơi game, xem phim, đi du lịch cùng người thân, và được ăn món má nấu. <br> <br>",
     "Education":[
         {
-        "School": "University of Pennsylvania - The Wharton School",
-        "Degree":"Bachelor of Science",
-        "Major":"Economics",
-        "Time1":"1988",
-        "Time2":"June 1992"
-    }]
+        "School": "Student of University of Science",
+        "Degree":"Student",
+        "Major":", Information Technology",
+        "Time1":"2013",
+        "Time2":" - Present"
+    }],
+    "Project":[
+        {
+            "NameProject": "Đồ án lập trình web",
+            "Time": "4/2016",
+            "Description": "Sử dụng AngularJS để xây dựng trang CV cá nhân tương tự như của LinkedIn (tham khảo https://www.linkedin.com/in/jeffweiner08). Dữ liệu mặc định được tổ chức thành các tập tin json và thông qua AngularJS để đọc và hiển thị. Từ trang web mặc định có thể thông qua giao diện tương tự LinkedIn để sửa đổi, bổ sung thông tin của CV."
+        }
+    ]
 }
