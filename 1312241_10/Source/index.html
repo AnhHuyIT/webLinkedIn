@@ -240,6 +240,9 @@
                                         <textarea ng-show="edit.stateexperience_info.status" ng-model="bg.Info"></textarea>
                                     </div>
                                 </div>
+                                <div>
+                                    <input type="button" value="Add Experience" ng-click="AddExp()">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -267,6 +270,10 @@
                                             </li>
                                             
                                         </ul>
+                                        
+                                        <div>
+                                            <input type="button" value="Add Skill" ng-click="AddSkill()">
+                                        </div>
                                         <h5>Huy also knows about...</h5>
                                         <ul class="skills-section compact-view">
                                             <li data-endorsed-item-name="Social Media" class="endorse-item has-endorsements " data-endorsement-id>
@@ -405,6 +412,9 @@
                                     <p class="description summary-field-show-more" dir="ltr" id="control_gen_8" ng-bind="pro.Description" ng-show="!edit.stateproject.status"></p>
                                     <textarea ng-model="pro.Description" ng-show="edit.stateproject.status"></textarea>
                                 </div>
+                            </div>
+                            <div>
+                                <input type="button" value="Add Project" ng-click="AddPro()">
                             </div>
                         </div>
                     </div>

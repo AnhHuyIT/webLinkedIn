@@ -5,6 +5,31 @@ Background.controller('BackgroundCtrl', ['$scope','$http', function ($scope, $ht
     $scope.background = data;
   });
     
+    $scope.AddExp = function(){
+              var y = { "Work":"Work (Empty)",
+                        "Company":"Company (Empty)",
+                        "Time":"Time (Empty)",
+                        "Local":"Local (Empty)",
+                        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAATmAAAAJDdiMDk5Yzk4LWE1MjItNGQ0NC05YmMzLWFjNDgyNzllNzI4Mw.png",
+                        "Info":"Infomation (Empty) <br> <br>"};
+             console.log(y);
+             $scope.background.Experience.push(y);
+          };
+    
+    $scope.AddSkill = function(){
+              var y = { "NameSkill":"New Skill"};
+             console.log(y);
+             $scope.background.Skill.push(y);
+          };
+    
+    $scope.AddPro = function(){
+              var y = { "NameProject": "New Project",
+                        "Time": "New Time",
+                        "Description": "New Description"};
+             console.log(y);
+             $scope.background.Project.push(y);
+          };
+    
     $scope.edit = {statusfullname:{name:"hello", status:false},
                    statuscurrent:{name:"hello", status:false},
                    statuswork_company:{name:"hello", status:false},
