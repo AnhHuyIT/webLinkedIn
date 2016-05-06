@@ -4,6 +4,7 @@
     "Company": "HCMUS",
     "Current": "Student of University of Science",
     "Previous": "Student of Trần Quang Khải School",
+    "Avatar":"http://www.upsieutoc.com/images/2016/05/06/13062061_1760329924202870_8540468181243607365_n.jpg",
     "Experience": [
         {
         "Work":"CEO",
@@ -20,10 +21,36 @@
         "Local":"Mountain View, CA",
         "Logo":"https://media.licdn.com/media/p/2/000/205/177/3cfd5b9.png",
         "Info":"With revenue of $4B+ and approximately 8,000 employees, Intuit is a leading provider of innovative business and financial management solutions for small and medium-sized businesses, consumers, accounting professionals and financial institutions.<br><br>"
+    },
+    {
+        "Work":"Member, Advisory Board",
+        "Company":"Venture For America",
+        "Time":"2012 – Present (4 years)",
+        "Local":"Greater New York City Area",
+        "Logo":"https://media.licdn.com/media/AAEAAQAAAAAAAATmAAAAJDdiMDk5Yzk4LWE1MjItNGQ0NC05YmMzLWFjNDgyNzllNzI4Mw.png",
+        "Info":"Innovative fellowship program that places top college graduates in start-ups for two years in low-cost U.S. cities to generate job growth and train the next generation of entrepreneurs.<br><br>"
     }
     
     ],
-    "Summary": "Tôi là Nguyễn Anh Huy, sinh viên năm 3 chuyên ngành Công nghệ thông tin, trường ĐH KHTN-ĐHQG tp.HCM <br> <br> Sở thích: chơi game, xem phim, đi du lịch cùng người thân, và được ăn món má nấu. <br> <br>",
+    "Skill": [
+        {
+            "NameSkill":"Business Strategy"
+        },
+        {
+            "NameSkill":"Product Development"
+        },
+        {
+            "NameSkill":"LinkedIn"
+        },
+        {
+            "NameSkill":"Product Management"
+        },
+        {
+            "NameSkill":"Strategic Planning"
+        }
+        
+    ],
+    "Summary": "Internet executive with over 20 years of experience, including general management of mid to large size organizations, corporate development, product development, business operations, and strategy. <br> Currently CEO at LinkedIn, the web's largest and most powerful network of professionals. <br> Prior to LinkedIn, was an Executive in Residence at Accel Partners and Greylock Partners. Primarily focused on advising the leadership teams of the firm's existing consumer technology portfolio companies while also working closely with the firm’s partners to evaluate new investment opportunities. <br> Previously served in key leadership roles at Yahoo! for over seven years, most recently as the Executive Vice President of Yahoo!'s Network Division managing Yahoo's consumer web product portfolio, including Yahoo's Front Page, Mail, Search, and Media products.<br> Specialties: general management, corporate development, product development, business operations, strategy, product marketing, non-profit governance",
     "Education":[
         {
         "School": "Student of University of Science",

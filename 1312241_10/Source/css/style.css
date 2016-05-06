@@ -575,7 +575,6 @@ a:visited, #footer a:visited {
 
 #profile {
     float: left;
-    width: 646px;
     word-wrap: break-word;
     min-height: 1px;
 }
@@ -993,9 +992,7 @@ a.endorse-item-name-text {
     text-decoration: none;
 }
 
-a.visited, a:visited {
-    color: #96999c;
-}
+
 
 .endorse-count {
     font-weight: bold;
@@ -1363,3 +1360,7 @@ input, textarea, keygen, select, button, meter, progress {
     color: #999;
     content: "\e006";
 }
+
+
+
+

@@ -43,9 +43,10 @@
     <div id="wrapper" class="  guided-edit-promo-profile premium-profile">
         <div id="top-card" data-li-template="top_card">
             <div class="profile-top-card top-card  follow influencer-enabled">
-                <div class="profile-card vcard">
+                <div class="profile-card vcard" >
                     
-                        <img src="http://www.upsieutoc.com/images/2016/05/06/13062061_1760329924202870_8540468181243607365_n.jpg" width="240" height="240" alt="Nguyễn Anh Huy">
+                        <img src={{background.Avatar}} ng-show="!edit.changeavatar.status" ng-dblclick="hidetextbox(edit.changeavatar)" width="240" height="240" alt="Nguyễn Anh Huy">
+                        <input type="text" ng-model="background.Avatar" ng-dblclick="hidetextbox(edit.changeavatar)" ng-show="edit.changeavatar.status">
                     
                     <div class="profile-overview">
                         <div class="profile-overview-content">
@@ -253,93 +254,20 @@
                                 <div id="skills-item-view">
                                     <div id="profile-skills">
                                         <h5>Top Skills</h5>
-                                        <ul class="skills-section">
-                                            <li data-endorsed-item-name="Business Strategy" class="endorse-item has-endorsements" data-endorsement-id>
+                                        <ul class="skills-section" ng-repeat="sk in background.Skill" ng-dblclick="hidetextbox(edit.statusskill)">
+                                            <li data-endorsed-item-name="Business Strategy" class="endorse-item has-endorsements" data-endorsement-id >
                                                 <span class="skill-pill">
                                                     <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers">
                                                         <span class="num-endorsements" data-count="242">99+</span></a>
                                                     <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/business-strategy?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Business Strategy</a>
+                                                        <a href="" title="Learn more about this skill" class="endorse-item-name-text" class="endorse-item-name" ng-bind="sk.NameSkill" ng-show="!edit.statusskill.status"></a>
                                                     </span>
+                                                    <input ng-model="sk.NameSkill" ng-show="edit.statusskill.status">
                                                 </span>
                                             </li>
-                                            <li data-endorsed-item-name="Leadership" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="214">99+</span>
-                                                    </a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/leadership?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Leadership</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Strategy" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers">
-                                                        <span class="num-endorsements" data-count="186">99+</span>
-                                                    </a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/strategy?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Strategy</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Entrepreneurship" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="122">99+</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/entrepreneurship?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Entrepreneurship</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Product Marketing" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="111">99+</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/product-marketing?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Product Marketing</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Strategic Planning" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="108">99+</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/strategic-planning?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Strategic Planning</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Executive Management" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="96">96</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/executive-management?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Executive Management</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Product Development" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="87">87</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/product-development?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Product Development</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="Product Management" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="76">76</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/product-management?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">Product Management</a>
-                                                    </span>
-                                                </span>
-                                            </li>
-                                            <li data-endorsed-item-name="LinkedIn" class="endorse-item has-endorsements" data-endorsement-id>
-                                                <span class="skill-pill">
-                                                    <a class="endorse-count" href="javascript:void(0)" role="button" title="See endorsers"><span class="num-endorsements" data-count="73">73</span></a>
-                                                    <span class="endorse-item-name">
-                                                        <a href="https://www.linkedin.com/topic/linkedin?trk=mprofile_topic" title="Learn more about this skill" class="endorse-item-name-text">LinkedIn</a>
-                                                    </span>
-                                                </span>
-                                            </li>
+                                            
                                         </ul>
-                                        <h5>Jeff also knows about...</h5>
+                                        <h5>Huy also knows about...</h5>
                                         <ul class="skills-section compact-view">
                                             <li data-endorsed-item-name="Social Media" class="endorse-item has-endorsements " data-endorsement-id>
                                                 <div>

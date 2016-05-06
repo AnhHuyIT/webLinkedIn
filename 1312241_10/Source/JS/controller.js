@@ -9,7 +9,7 @@ Background.controller('BackgroundCtrl', ['$scope','$http', function ($scope, $ht
                    statuscurrent:{name:"hello", status:false},
                    statuswork_company:{name:"hello", status:false},
                    statusprevious:{name:"hello", status:false},
-                    statusjob:{name:"hello",  status:false},
+                    statusskill:{name:"hello",  status:false},
                     statushistory:{name:"hello",  status:false},
                     statusinformationme:{name:"hello",  status:false},
                     statesummary:{name:"hello",  status:false},
@@ -20,7 +20,8 @@ Background.controller('BackgroundCtrl', ['$scope','$http', function ($scope, $ht
                     stateeducation:{name:"hello",  status:false},
                     stateproject:{name:"hello",  status:false},
                     stateavatar:{name:"hello",  status:false},
-                    stateskill:{name:"hello",  status:false}
+                    stateskill:{name:"hello",  status:false},
+                    changeavatar:{name:"hello", status:false}
            				};
 
             $scope.hidetextbox = function(nameshow){
