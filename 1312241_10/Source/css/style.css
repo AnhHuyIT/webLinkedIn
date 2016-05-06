@@ -1071,9 +1071,7 @@ a.visited, a:visited {
     border-bottom: 1px solid #e8e8e8;
 }
 
-#background-education.last {
-    border-color: transparent;
-}
+
 
 .background-education h3:before {
     font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
@@ -1245,4 +1243,123 @@ input, textarea, keygen, select, button {
 
 input, textarea, keygen, select, button, meter, progress {
     -webkit-writing-mode: horizontal-tb;
+}
+
+.nav-v5-2-header .header-section.last-child {
+    float: right;
+    width: auto;
+}
+
+.global-header .header-section.last-child {
+    margin-left: 10px;
+    float: left;
+    width: 318px;
+    position: relative;
+}
+
+.nav-v5-2-header .utilities {
+    margin-left: 0px;
+    margin-right: -5px;
+    height: 42px;
+}
+
+.global-header .utilities {
+    float: right;
+    margin-left: 0px;
+    margin-right: -5px;
+}
+
+.global-header .nav {
+    float: left;
+}
+
+.nav-v5-2-header .menubar-lix .utilities .nav-item {
+    position: relative;
+    height: 42px;
+}
+
+.nav-v5-2-header .utilities .nav-item {
+    position: static;
+}
+
+.global-header .nav .nav-item {
+    float: left;
+    line-height: 13px;
+    position: relative;
+}
+
+.global-header .menubar-lix .utilities .activity-toggle {
+    height: 13px;
+}
+
+.global-header .menubar-lix .utilities .nav-link {
+    cursor: pointer;
+}
+
+.nav-v5-2-header .utilities .activity-toggle {
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.nav-v5-2-header .utilities .account-toggle, .nav-v5-2-header .utilities .activity-toggle {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.global-header .utilities .activity-toggle {
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    display: block;
+    width: 21px;
+}
+
+.global-header .utilities .nav-link {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.nav-v5-2-header .nav .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #D7D7D7;
+}
+
+.global-header .nav .nav-link {
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #3bc0f3;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.global-header .nav a {
+    color: #006fa6;
+    text-decoration: none;
+}
+
+.nav-v5-2-header .utilities .activity-toggle.messaging:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 21px;
+    color: #999;
+    content: "\e0bb";
+}
+
+.nav-v5-2-header .utilities .activity-toggle.inbox-alert:before {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: 21px;
+    color: #999;
+    content: "\e006";
 }
